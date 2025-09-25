@@ -20,6 +20,7 @@ if(empty($email)) {
 }
 }
 
+// FILTER_VALIDATE_INT vérifie que la valeur(ici _EMAIL) est bien un entier (pas une chaîne comme "12h" ou "abc"
 // htmlspecialchars() — Convertit les caractères spéciaux en entités HTML
 // filter_var ca verifieles donnes entrentes , ici, si $mail invalide alors afficher message erreur .
 // trim — Supprime les espaces (ou d'autres caractères) en début et fin de chaîne
